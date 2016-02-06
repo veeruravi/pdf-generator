@@ -1,0 +1,19 @@
+{% load static from staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'app1/all_users.css' %}" />
+<html>
+<head>
+	<title>All Users</title>
+</head>
+<body>
+<div class="div2">
+	<a href="/app1/all">asdfasd</a>
+</div>
+<h1 id="para1">Users</h1>
+{% for user in users %}
+<div class="div1">
+<h2 id="head1"><a  class="ex" href="/app1/user/{{ user.id }}/">{{ user.first_name}} {{ user.last_name }}</a></h2>
+</div>
+{% endfor %}
+</body>
+</html>

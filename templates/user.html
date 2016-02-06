@@ -1,0 +1,14 @@
+{% load static from staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'app1/user.css' %}">
+<html>
+<head>
+	<title>Assess machine</title>
+</head>
+<body>
+<p id="para1">Name:{{ user.first_name }} {{ user.last_name }}</p>
+<p id="para1">phone:{{ user.phone}}</p>
+<h2 id="para1"><a href="/app1/func/{{ user.id }}/"> generate pdf</a></h2>
+<h2 id="para1"><a href="/app1/mail/{{ user.id }}/"> mail pdf</a></h2>
+</body>
+</html>

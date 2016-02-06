@@ -1,0 +1,30 @@
+div.div1:hover {font-size: 1.2em;color: blue;background-image: url("images/assess1.png");background-size: 210px 160px;height: 160px;width: 210px;    }
+body { 		
+	background-image: url("images/background.png");
+    background-attachment: fixed;
+}
+#para1 {
+	text-align: center;
+    color: blue;
+}
+#head1 {
+	text-align: center;
+	color: white;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.div1 {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 3px solid #73AD21;
+    background-color: #A6A6A6;
+}
+.div2 {
+    background-color: white;
+    height: 30px;
+    text-align: left;
+}
